@@ -38,31 +38,50 @@ export default function Home() {
       </header>
 
       {/* Hero Section */}
-      <section className="bg-gradient-to-b from-primary/5 to-background py-16 md:py-24">
-        <div className="max-w-4xl mx-auto px-4 text-center">
-          <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground leading-tight mb-6">
-            遺品整理・特殊清掃
-            <br />
-            <span className="text-primary">信頼できる業者</span>を比較
-          </h1>
-          <p className="text-lg text-foreground-light max-w-2xl mx-auto mb-8 leading-relaxed">
-            大切な方を亡くされた悲しみの中、遺品整理のことでお困りではありませんか。
-            <br className="hidden md:block" />
-            ご遺族の気持ちに寄り添い、安心して任せられる業者選びをお手伝いします。
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a
-              href="#ranking"
-              className="bg-accent hover:bg-accent-dark text-white px-8 py-4 rounded-lg font-medium text-lg transition-colors shadow-md"
-            >
-              おすすめ業者を見る
-            </a>
-            <a
-              href="#fee-guide"
-              className="bg-background-white hover:bg-border-light text-foreground px-8 py-4 rounded-lg font-medium text-lg transition-colors border border-border"
-            >
-              費用相場を確認
-            </a>
+      <section className="relative text-white overflow-hidden">
+        <img
+          src="/images/kv-top.jpg"
+          alt="遺品整理の相談シーン"
+          className="absolute inset-0 w-full h-full object-cover"
+        />
+        <div className="absolute inset-0 bg-gradient-to-r from-[#1a2a3a]/90 via-[#1a2a3a]/70 to-[#1a2a3a]/40" />
+        <div className="relative max-w-6xl mx-auto px-4 py-20 md:py-32">
+          <div className="max-w-2xl">
+            <div className="flex flex-wrap gap-3 mb-6">
+              <span className="inline-flex items-center gap-1 bg-white/20 backdrop-blur-sm px-4 py-2 rounded-full text-sm font-medium">
+                🏠 信頼の優良業者厳選
+              </span>
+              <span className="inline-flex items-center gap-1 bg-white/20 backdrop-blur-sm px-4 py-2 rounded-full text-sm font-medium">
+                🌏 全国対応
+              </span>
+              <span className="inline-flex items-center gap-1 bg-white/20 backdrop-blur-sm px-4 py-2 rounded-full text-sm font-medium">
+                📞 24時間受付
+              </span>
+            </div>
+            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold leading-tight mb-6">
+              遺品整理・特殊清掃
+              <br />
+              <span className="text-white/90">信頼できる業者</span>を比較
+            </h1>
+            <p className="text-lg text-white/80 mb-8 leading-relaxed">
+              大切な方を亡くされた悲しみの中、遺品整理のことでお困りではありませんか。
+              <br className="hidden md:block" />
+              ご遺族の気持ちに寄り添い、安心して任せられる業者選びをお手伝いします。
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4">
+              <a
+                href="#ranking"
+                className="bg-accent hover:bg-accent-dark text-white px-8 py-4 rounded-lg font-medium text-lg transition-colors shadow-md"
+              >
+                おすすめ業者を見る
+              </a>
+              <a
+                href="#fee-guide"
+                className="bg-white/10 hover:bg-white/20 backdrop-blur-sm text-white px-8 py-4 rounded-lg font-medium text-lg transition-colors border border-white/30"
+              >
+                費用相場を確認
+              </a>
+            </div>
           </div>
         </div>
       </section>
