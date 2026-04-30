@@ -5,3 +5,4 @@ Sitemap: https://ihinseirinavi.com/sitemap.xml
 
 Disallow: /_next/
 Disallow: /404/
+Disallow: /api/
