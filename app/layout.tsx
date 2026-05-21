@@ -11,6 +11,7 @@ const notoSansJP = Noto_Sans_JP({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://ihinseirinavi.com"),
+  alternates: { canonical: "/" },
   title: "遺品整理ナビ｜遺品整理・特殊清掃の業者比較【2026年最新】",
   description:
     "遺品整理・特殊清掃・生前整理・ゴミ屋敷清掃の優良業者を比較。全国対応・無料見積もり。大切な方を亡くされたご遺族に寄り添い、信頼できる業者選びをサポートします。",
